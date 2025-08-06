@@ -1,0 +1,86 @@
+body {
+	background-color: #66afe4;
+}
+
+.header-wrap {
+	padding: 1rem 1rem;
+}
+
+.header-title {
+	width: 100%;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+}
+
+a.logo {
+	height: 80px;
+}
+
+.section-bg:before {
+	top: -60px;
+}
+
+.two_up-part {
+    margin-top: 3.75rem;
+}
+
+@media screen and (min-width: 600px) {
+.two_up {
+    width: 100%;}
+	
+.two_up-part {
+    float: left;
+    display: block;
+    margin-right: 5%;
+    width: 45%;
+    margin-top: 0;} 
+}
+
+.fa.fa-small {
+	font-size: .7em;
+}
+
+.header {
+	min-height: 12rem;
+	background: url("../img/city-seal.png");
+	background-color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-size: cover;
+	
+}
+
+.usa-disclaimer {
+    background-color: #c6a645;
+	color: white;
+	font-size: .8rem;
+	padding-bottom: .1rem;
+	padding-top: .1rem;
+	text-align: left;
+	padding-left: 2rem;
+}
+
+a.usa-button-header {
+	background-color: white;
+}
+
+.separator:after, .separator:before {
+	background: linear-gradient(to top, #c6a645 0, #fff 100%);
+}
+
+@media screen and (max-width: 1000px) {
+.section-bg-far-r {
+	background: inherit
+	}
+}
+
+.section-light.problem-page:before {
+    background-image: none;
+    position: absolute;
+    top: -4.865rem;
+}
