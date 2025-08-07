@@ -87,3 +87,9 @@ a.usa-button-header {
 .header-button:hover {
 	color: c6a645;
 }
+
+@media screen and (min-width: 600px) {
+    .billboard-display_text {
+    	font-size: 4rem;
+}
+
