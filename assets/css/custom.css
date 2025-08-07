@@ -45,8 +45,7 @@ a.logo {
 }
 
 .header {
-	min-height: 12rem;
-	background: url("../img/city-seal.png");
+	min-height: 13rem;
 	background-color: white;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -83,4 +82,8 @@ a.usa-button-header {
     background-image: none;
     position: absolute;
     top: -4.865rem;
+}
+
+.header-button:hover {
+	color: c6a645;
 }
